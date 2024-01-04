@@ -90,10 +90,9 @@ server <- function(input, output, session) {
         theme_minimal()
     })
     
-    # Création de la carte des lieux de crime avec vue initiale sur l'Amérique du Nord
     output$crime_map <- renderLeaflet({
       leaflet(data = filtered_data) %>%
-        setView(lng = -95.7129, lat = 37.0902, zoom = 4) %>%
+        setView(lng = -118.2437, lat = 34.0522, zoom = 11) %>%
         addTiles() %>%
         addMarkers(
           lat = ~LAT,
