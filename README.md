@@ -21,9 +21,15 @@ Bienvenue sur notre plateforme dédiée à l'analyse des incidents impliquant de
 ## Téléchargement et Exécution de l'Application
 3. **Télécharger le Code Source :**
    - Téléchargez les dossiers depuis le dépôt GitHub ou tout autre emplacement spécifié.
+   - Créez un dossier "DATA"  au niveau de votre ordinateur et recupérer les données ici : 
+     (https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data)
 
 4. **Ouvrir le Projet dans RStudio :**
-   - Ouvrez le fichier "App.R" ou le fichier principal dans RStudio.
+   - Ouvrez le fichier "App.R", Global.R et Packages.R dans RStudio.
+   - Au niveau de Global.R mettre le chemin qui conduit à vos données qui se trouve dans le fichier DATA 
+     que vous aviez créer ultérieurement:
+     data <- read.csv("/Users/khoudiadiouf/Desktop/ProjetR-Shiny/Projet-R-Shiny/DATA/Crime_Data.csv", 
+          header = TRUE)
 
 5. **Exécuter l'Application :**
    - utilisez la commande suivante : runApp('/chemin/vers/votre/dossier/contenant/App.R') au niveau de la 
