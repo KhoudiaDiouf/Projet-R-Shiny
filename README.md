@@ -9,8 +9,6 @@ Bienvenue sur notre plateforme dédiée à l'analyse des incidents impliquant de
 
 <img width="1420" alt="Capture d’écran 2024-01-04 à 12 37 48" src="https://github.com/KhoudiaDiouf/Projet-R-Shiny/assets/152623020/8f1c9710-1bf4-41bc-9f83-0aa688a1b409">
 
-![nom de l'image](https://us.123rf.com/450wm/kantyasmiley/kantyasmiley2305/kantyasmiley230503955/208851936-noir-afro-afro-am%C3%A9ricain-fille-femme-dame-illustration-vectorielle-portrait-t%C3%AAte-visage-boucl%C3%A9s.jpg?ver=6)
-
 ## Comment utiliser l'application :
 
 1. **Lancement de l'application :** Utilisez runApp('/chemin/vers/votre/dossier/contenant/App.R') au niveau de la console R  avec le chemin complet vers le dossier contenant le fichier App.R. 
