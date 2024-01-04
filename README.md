@@ -38,20 +38,6 @@ Bienvenue sur notre plateforme dédiée à l'analyse des incidents impliquant de
      Shiny/App.R/app.R')
 
 
-## Comment utiliser l'application :
-
-1. **Tranche d'âge :** Utilisez le curseur pour sélectionner une tranche d'âge spécifique.
-
-2. **Rechercher :** Cliquez sur le bouton "Rechercher" pour appliquer votre sélection.
-
-## Onglets disponibles :
-
-- **Accueil :** Explorez des graphiques interactifs pour visualiser la répartition des victimes sans-abri par ville, saison et sexe. Utilisez le curseur pour filtrer les données en fonction de tranches d'âge spécifiques et observez instantanément les changements dans les visualisations.
-
-- **Lieux Crime :** Visualisez les emplacements géographiques des incidents criminels en fonction de la tranche d'âge sélectionnée. La carte interactive permet une exploration approfondie des emplacements exacts des incidents, offrant une perspective géographique cruciale.
-
----
-
 **Confidentialité et Éthique des Données :**
 - Afin de respecter la confidentialité des données, le jeu de données réel n'est pas inclus dans ce dépôt. Les informations sensibles ont été anonymisées.
 
